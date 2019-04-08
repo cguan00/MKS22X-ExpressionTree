@@ -6,7 +6,7 @@ public class ExpressionTree{
     if(isValue()){
       return "" + getValue();
     } else{
-      return "(" + getLeft().toStringPostfix() + " " + getOp() + " " + getRight().toStringPostfix() + ")";
+      return "(" + getLeft().toString() + " " + getOp() + " " + getRight().toString() + ")";
     }
   }
 
